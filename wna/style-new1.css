@@ -1,0 +1,481 @@
+.main-banner .heading {
+    max-width: 600px;
+    line-height: 54px;
+    background-color: rgb(3 50 77 / 80%);
+    padding: 15px;
+}
+
+
+/*********** request-form ***********/
+.request-form {
+    display: block;
+    width: 100%;
+    max-width: 344px;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background: rgba(244, 246, 250, 0.8);
+    z-index: 990
+}
+
+.request-form h4 {
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.request-form h4 span {
+    padding-top: 10px;
+    display: block
+}
+
+.request-form p {
+    font-size: 14px;
+    color: #000;
+    line-height: 24px;
+    padding: 0px 10% 25px 10%;
+}
+
+.request-form .allRow {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+}
+
+.request-form .contact-form {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.request-form .contact-form .c-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.request-form .contact-form .c-row .c-col {
+    flex: 1;
+    margin: 0px;
+}
+
+.request-form .contact-form .c-row .c-col input[type="text"],
+.request-form .contact-form .c-row .c-col input[type="tel"],
+.request-form .contact-form .c-row .c-col input[type="email"],
+.request-form .contact-form .c-row .c-col select {
+    height: 44px;
+    background: #ffffff !important;
+    font-size: 15px;
+    color: #020d0f;
+    padding: 10px 20px !important;
+    margin-bottom: 17px
+}
+
+.request-form ::-webkit-input-placeholder {
+    color: #020d0f;
+    opacity: 1
+}
+
+.request-form :-moz-placeholder {
+    color: #020d0f;
+    opacity: 1
+}
+
+.request-form ::-moz-placeholder {
+    color: #020d0f;
+    opacity: 1
+}
+
+.request-form :-ms-input-placeholder {
+    color: #020d0f;
+    opacity: 1
+}
+
+.request-form .contact-form .c-row .c-col .btn {
+    margin-top: 6px
+}
+
+.landing .common-content::before {
+    display: none
+}
+
+/*********** services-wrap ***********/
+.our-experience-wrap {
+    padding: 59px 0 13px;
+}
+
+.services-wrap {
+    display: block;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    overflow: hidden;
+    background: rgba(244, 246, 250, 1);
+}
+
+.services-wrap h2 {
+    display: none;
+    width: 100%;
+    padding: 0px 0 20px;
+    text-align: center;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500
+}
+
+.services-wrap .allBox {
+    display: flex;
+    margin: 0%;
+    position: relative;
+    clear: both;
+    justify-content: space-around;
+}
+
+.services-wrap .allBox .box {
+    display: table-cell;
+    width: 28%;
+    padding: 0;
+    text-decoration: none;
+    text-align: center
+}
+
+.services-wrap .allBox .box figure {
+    display: block;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 60%;
+    overflow: hidden
+}
+
+.services-wrap .allBox .box img {
+    width: 100%;
+    transition: all ease-in-out 0.2s
+}
+
+.services-wrap .allBox .box .details {
+    padding: 20px 15px 0px
+}
+
+.services-wrap .allBox .box h3 {
+    display: block;
+    width: 100%;
+    color: #020d0f;
+    padding: 0px 0 0px;
+    line-height: 28px;
+    font-weight: 600;
+    font-size: 28px
+}
+
+.services-wrap .allBox .box p {
+    display: block;
+    width: 100%;
+    padding-top: 0;
+    padding: 0;
+    color: #020d0f;
+}
+
+.services-wrap .allBox .box:hover {}
+
+.services-wrap .allBox .box a {
+    text-decoration: none
+}
+
+.services-wrap .allBox .box:hover figure img {
+    transform: scale(1.1, 1.1)
+}
+
+
+.home-about-wrap {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+    background-color: rgb(13,65,88);
+    color: #fff;
+}
+
+.home-about-wrap h3 {
+    font-size: 36px;
+    color: #fff;
+}
+
+.home-about-wrap .allbox {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-about-wrap .allbox .box {
+    width: 40%;
+    text-align: center
+}
+
+.home-about-wrap .allbox .box.content {
+    width: 60%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.home-about-wrap .allbox .box img {
+    display: inline-block
+}
+
+
+.ready-to-work-wrap {
+    position: relative;
+    overflow: hidden
+}
+
+.ready-to-work-wrap h3 {
+    font-size: 36px
+}
+
+.ready-to-work-wrap:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(13,65,88);
+    background-size: cover;
+    content: "";
+    display: block;
+    filter: blur(12px);
+    -webkit-filter: blur(12px);
+}
+
+.ready-to-work-wrap * {
+    position: relative;
+    z-index: 99
+}
+
+
+.brands-wrap {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 50px 0 30px;
+    text-align: center;
+}
+
+.brands-wrap .container {
+    max-width: 960px
+}
+
+.brands-wrap h3 {
+    padding-top: 0;
+    width: 100%;
+    font-size: 30px;
+    padding-bottom: 15px
+}
+
+.brands-wrap .allBox {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: start;
+    height: 134px;
+    align-items: center;
+}
+
+.brands-wrap .allBox .box.name {
+    -ms-flex: 0 0 154px;
+    flex: 0 0 154px;
+    max-width: 154px;
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    color: #171717
+}
+
+.brands-wrap .allBox .box.brands {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.brands-wrap .allBox .box.brands img {
+    width: auto !important;
+    display: inline-block
+}
+
+.brands-wrap .allBox .box.brands .owl-item {
+    text-align: center
+}
+
+
+.testimonials-wrap {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 60px 0;
+    background: rgba(244, 246, 250, 1);
+}
+
+.testimonials-wrap .container {
+    max-width: 900px
+}
+
+.testimonials-wrap .allBox {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    position: relative
+}
+
+.testimonials-wrap .allBox .box {
+    float: left;
+    width: 100%;
+    text-align: center
+}
+
+.testimonials-wrap .allBox .box h4 {
+    line-height: 30px;
+    padding: 0px 0;
+    font-size: 24px;
+    color: #151515;
+    font-weight: 400
+}
+
+.testimonials-wrap .allBox .box p {
+    line-height: 30px;
+    font-size: 18px;
+    padding: 0px 0;
+}
+
+.testimonials-wrap .allBox .box span {
+    display: block;
+    padding: 0px 0;
+    font-size: 18px;
+    font-weight: 600
+}
+
+.testimonials-wrap .allBox i {
+    color: #e08700;
+    font-size: 32px;
+    margin-right: 2px;
+}
+
+
+footer {
+    background: none;
+    text-align: center
+}
+
+footer .footer-logo {
+    display: inline-block;
+    padding-bottom: 5px
+}
+
+footer p {
+    display: block;
+    color: #020d0f;
+}
+
+footer p a {
+    color: #020d0f;
+}
+
+.landing .call-now {
+    color: #fff;
+    margin-top: 20px
+}
+
+.landing .call-now img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px
+}
+
+@media(max-width:991px) {
+    .landing .main-banner .heading {
+        width: 100%;
+        max-width: inherit;
+        font-size: 36px;
+        line-height: 44px;
+        color: #fff;
+    }
+
+    .landing .request-form {
+        position: static;
+        width: 100%;
+        max-width: inherit
+    }
+
+    .landing .home-about-wrap,
+    .landing .services-wrap,
+    .testimonials-wrap {
+        padding: 30px 0
+    }
+
+    .landing .ready-to-work-wrap {
+        padding: 50px 0;
+    }
+
+    .landing .footer-content {
+        display: block;
+        width: 100%
+    }
+}
+
+@media(max-width:767px) {
+
+    .main-banner .heading,
+    .ready-to-work-wrap h3,
+    .home-about-wrap h3 {
+        font-size: 30px;
+        line-height: 36px
+    }
+
+    .services-wrap {
+        padding: 0px 0 0
+    }
+
+    .services-wrap .allBox,
+    .home-about-wrap .allbox {
+        display: block
+    }
+
+    .services-wrap .allBox .box h3 {
+        font-size: 24px;
+    }
+
+    .services-wrap .allBox .box {
+        width: 100%;
+        display: block;
+        padding: 15px 0;
+        flex-wrap: wrap
+    }
+
+    .services-wrap .allBox .box figure {
+        max-width: 280px;
+        display: inline-block
+    }
+
+    .home-about-wrap .allbox .box,
+    .home-about-wrap .allbox .box.content {
+        width: 100%;
+        display: block;
+        text-align: center
+    }
+
+    .call-now {
+        margin-top: 0px
+    }
+
+    .services-wrap .allBox {
+        flex-wrap: wrap
+    }
+
+    .services-wrap .allBox .box {
+        width: 100%;
+        display: block;
+    }
+}
